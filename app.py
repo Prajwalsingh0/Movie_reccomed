@@ -9,7 +9,7 @@ import random
 def fetch_poster(movie_id):
     try:
         response = requests.get(
-            f'https://api.themoviedb.org/3/movie/{movie_id}?api_key=2159c514a5bcc21db18586a72678830f&language=en-US')
+            f'https://api.themoviedb.org/3/movie/{movie_id}?api_key=')
         data = response.json()
 
         
